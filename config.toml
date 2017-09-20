@@ -12,10 +12,8 @@ googleAnalytics = ""
   # Use custom.css for your custom styling
   style = "default"
   description = "A blog for all things data science"
-  copyright = "&copy;2017 Andrew Innes"
   sidebarAbout = [
-    "I am a student at Mercyhurst University currently pursuing my Master's Degree
-    in Data Science."
+    ""
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
