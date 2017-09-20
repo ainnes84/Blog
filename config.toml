@@ -1,5 +1,5 @@
-baseurl = "https://example.org/"
-title = "Creative portfolio"
+baseurl = "https://andrewinnesblog.netlify.com/"
+title = "Andrew's Data Science Blog"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -11,11 +11,11 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  description = "A blog for all things data science"
+  copyright = "&copy;2017 Andrew Innes"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "I am a student at Mercyhurst University currently pursuing my Master's Degree
+    in Data Science."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -45,11 +45,8 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
+  facebook      = "https://www.facebook.com/andrew.innes.12"
+  email         = "ainnes84@live.com"
+  linkedin      = "https://www.linkedin.com/in/andrew-innes-42946b112/"
+  instagram     = "https://www.instagram.com/ainnes84/"
+  github        = "https://github.com/ainnes84"
