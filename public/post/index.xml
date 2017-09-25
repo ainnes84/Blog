@@ -6,20 +6,18 @@
     <description>Recent content in Posts on Andrew&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrewinnesblog.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://andrewinnesblog.netlify.com/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>ggplot</title>
+      <link>https://andrewinnesblog.netlify.com/post/ggplot/</link>
+      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://andrewinnesblog.netlify.com/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>https://andrewinnesblog.netlify.com/post/ggplot/</guid>
+      <description>library(Lahman)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(ggiraph)df&amp;lt;-Batting%&amp;gt;%group_by(playerID)%&amp;gt;%summarize(career_HR=sum(HR),career_SO=sum(SO))%&amp;gt;%filter(career_HR&amp;gt;=400)HR_vs_SO&amp;lt;-inner_join(df,Master,by=c(&amp;quot;playerID&amp;quot;))%&amp;gt;%select(nameFirst,nameLast,career_HR,career_SO)HR_vs_SO$name&amp;lt;-paste(HR_vs_SO$nameFirst,HR_vs_SO$nameLast)————————————g&amp;lt;-ggplot()+geom_point_interactive(data=HR_vs_SO,aes(x=career_SO,y=career_HR,tooltip=name,data_id=nameLast))+ggtitle(&amp;quot;Career Homeruns vs. Strikeouts for Great Hitters&amp;quot;)+xlab(&amp;quot;Career Strikeouts&amp;quot;)+ylab(&amp;quot;Career Homeruns&amp;quot;)ggiraph(code=print(g),hover_css=&amp;quot;fill:white;stroke:black&amp;quot;){&#34;x&#34;:{&#34;html&#34;:&#34;\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 400\n \n \n 500\n \n \n 600\n \n \n 700\n \n \n \n \n \n \n \n \n \n \n 1000\n \n \n 1500\n \n \n 2000\n \n \n 2500\n \n \n Career Strikeouts\n \n \n Career Homeruns\n \n \n Career Homeruns vs.</description>
     </item>
     
   </channel>

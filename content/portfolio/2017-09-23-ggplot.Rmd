@@ -1,5 +1,5 @@
 ---
-title: ggplot
+title: ScatterPlot
 author: Andrew Innes
 date: '2017-09-23'
 slug: ggplot
@@ -9,6 +9,12 @@ tags:
   - ggplot
   - ggiraph
 ---
+```{r}
+library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(ggiraph)
+```
 
 ```{r}
 df<-Batting%>%

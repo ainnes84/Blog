@@ -1,0 +1,48 @@
+---
+title: ScatterPlot
+author: Andrew Innes
+date: '2017-09-23'
+slug: ggplot
+categories:
+  - R
+tags:
+  - ggplot
+  - ggiraph
+---
+```{r}
+library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(ggiraph)
+```
+
+```{r}
+df<-Batting%>%
+  group_by(playerID)%>%
+  summarize(career_HR=sum(HR),career_SO=sum(SO))%>%
+  filter(career_HR>=400)
+```
+
+```{r}
+HR_vs_SO<-inner_join(df,Master,by=c("playerID"))%>%
+  select(nameFirst,nameLast,career_HR,career_SO)
+```
+
+```{r}
+HR_vs_SO$name<-paste(HR_vs_SO$nameFirst,HR_vs_SO$nameLast)
+```
+
+#------------------------------------
+
+```{r}
+g<-ggplot()+
+  geom_point_interactive(data=HR_vs_SO,aes(x=career_SO,y=career_HR,tooltip=name,data_id=nameLast))+
+  ggtitle("Career Homeruns vs. Strikeouts for Great Hitters")+
+  xlab("Career Strikeouts")+
+  ylab("Career Homeruns")
+```
+
+```{r}
+ggiraph(code=print(g),hover_css="fill:white;stroke:black")
+```
+

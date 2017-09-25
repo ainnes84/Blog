@@ -6,119 +6,18 @@
     <description>Recent content in Portfolios on Andrew&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrewinnesblog.netlify.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Name of the work 2</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work2/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <title>ScatterPlot</title>
+      <link>https://andrewinnesblog.netlify.com/portfolio/ggplot/</link>
+      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work2/</guid>
-      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 3</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work3/</link>
-      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work3/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item without image</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work4/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work4/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 5</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work5/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work5/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 6</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work6/</link>
-      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work6/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 7</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work7/</link>
-      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work7/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 8</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work8/</link>
-      <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work8/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item with image</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work9/</link>
-      <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work9/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item with image</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work10/</link>
-      <pubDate>Sat, 05 Nov 2016 20:22:08 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work10/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item with image</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work11/</link>
-      <pubDate>Sat, 05 Nov 2016 20:23:59 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work11/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 1</title>
-      <link>https://andrewinnesblog.netlify.com/portfolio/work1/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
-      
-      <guid>https://andrewinnesblog.netlify.com/portfolio/work1/</guid>
-      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-&lt;/p&gt;</description>
+      <guid>https://andrewinnesblog.netlify.com/portfolio/ggplot/</guid>
+      <description>library(Lahman)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(ggiraph)df&amp;lt;-Batting%&amp;gt;%group_by(playerID)%&amp;gt;%summarize(career_HR=sum(HR),career_SO=sum(SO))%&amp;gt;%filter(career_HR&amp;gt;=400)HR_vs_SO&amp;lt;-inner_join(df,Master,by=c(&amp;quot;playerID&amp;quot;))%&amp;gt;%select(nameFirst,nameLast,career_HR,career_SO)HR_vs_SO$name&amp;lt;-paste(HR_vs_SO$nameFirst,HR_vs_SO$nameLast)————————————g&amp;lt;-ggplot()+geom_point_interactive(data=HR_vs_SO,aes(x=career_SO,y=career_HR,tooltip=name,data_id=nameLast))+ggtitle(&amp;quot;Career Homeruns vs. Strikeouts for Great Hitters&amp;quot;)+xlab(&amp;quot;Career Strikeouts&amp;quot;)+ylab(&amp;quot;Career Homeruns&amp;quot;)ggiraph(code=print(g),hover_css=&amp;quot;fill:white;stroke:black&amp;quot;){&#34;x&#34;:{&#34;html&#34;:&#34;\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 400\n \n \n 500\n \n \n 600\n \n \n 700\n \n \n \n \n \n \n \n \n \n \n 1000\n \n \n 1500\n \n \n 2000\n \n \n 2500\n \n \n Career Strikeouts\n \n \n Career Homeruns\n \n \n Career Homeruns vs.</description>
     </item>
     
   </channel>
