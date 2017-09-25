@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Andrew&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrewinnesblog.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Ggiraph</title>
       <link>https://andrewinnesblog.netlify.com/tags/ggiraph/</link>
-      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://andrewinnesblog.netlify.com/tags/ggiraph/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>Ggplot</title>
       <link>https://andrewinnesblog.netlify.com/tags/ggplot/</link>
-      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://andrewinnesblog.netlify.com/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histogram</title>
+      <link>https://andrewinnesblog.netlify.com/tags/histogram/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrewinnesblog.netlify.com/tags/histogram/</guid>
       <description></description>
     </item>
     

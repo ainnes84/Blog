@@ -1,0 +1,26 @@
+---
+title: Histogram
+author: Andrew Innes
+date: '2017-09-25'
+slug: histogram
+categories:
+  - R
+tags:
+  - ggiraph
+  - ggplot
+  - Histogram
+---
+
+
+
+<p>Player’s weight distribution using a histogram.</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)
+library(ggplot2)</code></pre>
+<pre class="r"><code>df&lt;-Master%&gt;%
+  filter(!is.na(weight))%&gt;%
+  select(weight)</code></pre>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=df,aes(x=weight),color=&quot;white&quot;,fill=&quot;blue&quot;,bins=40)+
+  ggtitle(&quot;Baseball Player Weight Distribution&quot;)</code></pre>
+<p><img src="/post/2017-09-25-histogram_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>

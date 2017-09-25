@@ -115,6 +115,21 @@
                       
                       <div class="box-masonry-text">
                       
+                          <h4><a href="https://andrewinnesblog.netlify.com/portfolio/histogram/">Histogram</a></h4>
+                          <div class="box-masonry-description">
+                              <p>Player’s weight distribution using a histogram.
+library(Lahman)library(dplyr)library(ggplot2)df&lt;-Master%&gt;%filter(!is.na(weight))%&gt;%select(weight)ggplot()+geom_histogram(data=df,aes(x=weight),color=&quot;white&quot;,fill=&quot;blue&quot;,bins=40)+ggtitle(&quot;Baseball Player Weight Distribution&quot;)</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                      
+                      <div class="box-masonry-text">
+                      
                           <h4><a href="https://andrewinnesblog.netlify.com/portfolio/ggplot/">ScatterPlot</a></h4>
                           <div class="box-masonry-description">
                               <p>library(Lahman)library(dplyr)library(ggplot2)library(ggiraph)df&lt;-Batting%&gt;%group_by(playerID)%&gt;%summarize(career_HR=sum(HR),career_SO=sum(SO))%&gt;%filter(career_HR&gt;=400)HR_vs_SO&lt;-inner_join(df,Master,by=c(&quot;playerID&quot;))%&gt;%select(nameFirst,nameLast,career_HR,career_SO)HR_vs_SO$name&lt;-paste(HR_vs_SO$nameFirst,HR_vs_SO$nameLast)————————————g&lt;-ggplot()+geom_point_interactive(data=HR_vs_SO,aes(x=career_SO,y=career_HR,tooltip=name,data_id=nameLast))+ggtitle(&quot;Career Homeruns vs. Strikeouts for Great Hitters&quot;)+xlab(&quot;Career Strikeouts&quot;)+ylab(&quot;Career Homeruns&quot;)ggiraph(code=print(g),hover_css=&quot;fill:white;stroke:black&quot;){"x":{"html":"\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 400\n \n \n 500\n \n \n 600\n \n \n 700\n \n \n \n \n \n \n \n \n \n \n 1000\n \n \n 1500\n \n \n 2000\n \n \n 2500\n \n \n Career Strikeouts\n \n \n Career Homeruns\n \n \n Career Homeruns vs.</p>
