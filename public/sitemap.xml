@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://andrewinnesblog.netlify.com/portfolio/barplot/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://andrewinnesblog.netlify.com/portfolio/histogram/</loc>
     <lastmod>2017-09-25T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +39,12 @@
   
   <url>
     <loc>https://andrewinnesblog.netlify.com/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewinnesblog.netlify.com/tags/barplot/</loc>
     <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

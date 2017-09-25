@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Barplot</title>
+      <link>https://andrewinnesblog.netlify.com/portfolio/barplot/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrewinnesblog.netlify.com/portfolio/barplot/</guid>
+      <description>How many homeruns each team hit in 1980.
+library(Lahman)library(dplyr)library(ggplot2)df&amp;lt;-Teams%&amp;gt;%filter(yearID==1980)%&amp;gt;%select(name,HR)%&amp;gt;%arrange(HR)df$name&amp;lt;-factor(df$name,levels=df$name)ggplot()+geom_bar(data=df,aes(x=name,y=HR),stat=&amp;quot;identity&amp;quot;,color=&amp;quot;blue&amp;quot;,fill=&amp;quot;white&amp;quot;)+coord_flip()</description>
+    </item>
+    
+    <item>
       <title>Histogram</title>
       <link>https://andrewinnesblog.netlify.com/portfolio/histogram/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>

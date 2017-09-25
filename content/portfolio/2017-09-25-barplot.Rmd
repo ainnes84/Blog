@@ -1,0 +1,37 @@
+---
+title: Barplot
+author: Andrew Innes
+date: '2017-09-25'
+slug: barplot
+categories:
+  - R
+tags:
+  - ggiraph
+  - ggplot
+  - Barplot
+---
+How many homeruns each team hit in 1980.
+```{r message=FALSE, warning=FALSE}
+library(Lahman)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+df<-Teams%>%
+  filter(yearID==1980)%>%
+  select(name,HR)%>%
+  arrange(HR)
+```
+
+```{r}
+df$name<-factor(df$name,levels=df$name)
+```
+
+```{r}
+ggplot()+
+  geom_bar(data=df,aes(x=name,y=HR),stat="identity",color="blue",fill="white")+
+  coord_flip()
+```
+
+

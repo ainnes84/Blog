@@ -1,0 +1,28 @@
+---
+title: Barplot
+author: Andrew Innes
+date: '2017-09-25'
+slug: barplot
+categories:
+  - R
+tags:
+  - ggiraph
+  - ggplot
+  - Barplot
+---
+
+
+
+<p>How many homeruns each team hit in 1980.</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)
+library(ggplot2)</code></pre>
+<pre class="r"><code>df&lt;-Teams%&gt;%
+  filter(yearID==1980)%&gt;%
+  select(name,HR)%&gt;%
+  arrange(HR)</code></pre>
+<pre class="r"><code>df$name&lt;-factor(df$name,levels=df$name)</code></pre>
+<pre class="r"><code>ggplot()+
+  geom_bar(data=df,aes(x=name,y=HR),stat=&quot;identity&quot;,color=&quot;blue&quot;,fill=&quot;white&quot;)+
+  coord_flip()</code></pre>
+<p><img src="/portfolio/2017-09-25-barplot_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>

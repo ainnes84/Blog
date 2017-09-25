@@ -115,6 +115,21 @@
                       
                       <div class="box-masonry-text">
                       
+                          <h4><a href="https://andrewinnesblog.netlify.com/portfolio/barplot/">Barplot</a></h4>
+                          <div class="box-masonry-description">
+                              <p>How many homeruns each team hit in 1980.
+library(Lahman)library(dplyr)library(ggplot2)df&lt;-Teams%&gt;%filter(yearID==1980)%&gt;%select(name,HR)%&gt;%arrange(HR)df$name&lt;-factor(df$name,levels=df$name)ggplot()+geom_bar(data=df,aes(x=name,y=HR),stat=&quot;identity&quot;,color=&quot;blue&quot;,fill=&quot;white&quot;)+coord_flip()</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                      
+                      <div class="box-masonry-text">
+                      
                           <h4><a href="https://andrewinnesblog.netlify.com/portfolio/histogram/">Histogram</a></h4>
                           <div class="box-masonry-description">
                               <p>Player’s weight distribution using a histogram.
