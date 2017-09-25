@@ -9,7 +9,7 @@ tags:
   - ggplot
   - ggiraph
 ---
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(Lahman)
 library(dplyr)
 library(ggplot2)
