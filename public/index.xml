@@ -6,10 +6,21 @@
     <description>Recent content on Andrew&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrewinnesblog.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://andrewinnesblog.netlify.com/portfolio/time-series/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrewinnesblog.netlify.com/portfolio/time-series/</guid>
+      <description>Time Series showing Babe Ruth’s Homeruns over the Years. First we must install our libraries.
+library(Lahman)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(ggiraph)Next we must create a dataframe:
+df&amp;lt;-Batting%&amp;gt;%filter(playerID==&amp;quot;ruthba01&amp;quot;)%&amp;gt;%select(yearID,HR)Next we take that dataframe and visualize it:</description>
+    </item>
     
     <item>
       <title>Barplot</title>
@@ -57,6 +68,15 @@ library(Lahman)library(dplyr)library(ggplot2)df&amp;lt;-Master%&amp;gt;%filt
       
       <guid>https://andrewinnesblog.netlify.com/post/ggplot/</guid>
       <description>library(Lahman)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(ggiraph)df&amp;lt;-Batting%&amp;gt;%group_by(playerID)%&amp;gt;%summarize(career_HR=sum(HR),career_SO=sum(SO))%&amp;gt;%filter(career_HR&amp;gt;=400)HR_vs_SO&amp;lt;-inner_join(df,Master,by=c(&amp;quot;playerID&amp;quot;))%&amp;gt;%select(nameFirst,nameLast,career_HR,career_SO)HR_vs_SO$name&amp;lt;-paste(HR_vs_SO$nameFirst,HR_vs_SO$nameLast)————————————g&amp;lt;-ggplot()+geom_point_interactive(data=HR_vs_SO,aes(x=career_SO,y=career_HR,tooltip=name,data_id=nameLast))+ggtitle(&amp;quot;Career Homeruns vs. Strikeouts for Great Hitters&amp;quot;)+xlab(&amp;quot;Career Strikeouts&amp;quot;)+ylab(&amp;quot;Career Homeruns&amp;quot;)ggiraph(code=print(g),hover_css=&amp;quot;fill:white;stroke:black&amp;quot;){&#34;x&#34;:{&#34;html&#34;:&#34;\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 400\n \n \n 500\n \n \n 600\n \n \n 700\n \n \n \n \n \n \n \n \n \n \n 1000\n \n \n 1500\n \n \n 2000\n \n \n 2500\n \n \n Career Strikeouts\n \n \n Career Homeruns\n \n \n Career Homeruns vs.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://andrewinnesblog.netlify.com/post/2017-10-01-time-series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrewinnesblog.netlify.com/post/2017-10-01-time-series/</guid>
+      <description>Time Seriescode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() {hljs.initHighlighting();}, 0);}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
     </item>
     
   </channel>

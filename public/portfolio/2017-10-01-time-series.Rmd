@@ -1,0 +1,48 @@
+---
+title: Time Series
+author: Andrew Innes
+date: '2017-10-01'
+slug: time-series
+categories:
+  - R
+tags:
+  - Time Series
+---
+
+Time Series showing Babe Ruth's Homeruns over the Years.
+First we must install our libraries.
+
+```{r}
+library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(ggiraph)
+```
+
+Next we must create a dataframe:
+
+```{r}
+df<-Batting%>%
+  filter(playerID=="ruthba01")%>%
+  select(yearID,HR)
+
+```
+
+Next we take that dataframe and visualize it:
+
+```{r}
+g<-ggplot()+
+  geom_line(data=df,aes(x=yearID,y=HR))+
+  geom_point_interactive(data=df,aes(x=yearID,y=HR,tooltip=HR,data_id=yearID))
+```
+
+Finally, we can make the chart interative by using ggiraph:
+
+```{r}
+ggiraph(code=print(g),hover_css="fill=white;stroke=red")
+```
+
+
+
+
+
