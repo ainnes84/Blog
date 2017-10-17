@@ -6,10 +6,21 @@
     <description>Recent content in Portfolios on Andrew&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrewinnesblog.netlify.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Korean Conflict</title>
+      <link>https://andrewinnesblog.netlify.com/portfolio/korean-conflict/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrewinnesblog.netlify.com/portfolio/korean-conflict/</guid>
+      <description>Looking at a data set from Kaggle that shows data on the Korean conflict.
+First we need to import libraries:
+library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(stringr)## Warning: package &amp;#39;stringr&amp;#39; was built under R version 3.4.2library(lubridate)## Warning: package &amp;#39;lubridate&amp;#39; was built under R version 3.</description>
+    </item>
     
     <item>
       <title>Time Series</title>

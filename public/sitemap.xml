@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://andrewinnesblog.netlify.com/portfolio/korean-conflict/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://andrewinnesblog.netlify.com/portfolio/time-series/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -47,8 +52,12 @@
   </url>
   
   <url>
+    <loc>https://andrewinnesblog.netlify.com/post/2017-10-17-korean-conflict/</loc>
+  </url>
+  
+  <url>
     <loc>https://andrewinnesblog.netlify.com/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -71,7 +80,7 @@
   
   <url>
     <loc>https://andrewinnesblog.netlify.com/tags/ggplot/</loc>
-    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +92,7 @@
   
   <url>
     <loc>https://andrewinnesblog.netlify.com/portfolio/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,7 +104,7 @@
   
   <url>
     <loc>https://andrewinnesblog.netlify.com/categories/r/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +116,7 @@
   
   <url>
     <loc>https://andrewinnesblog.netlify.com/tags/time-series/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
